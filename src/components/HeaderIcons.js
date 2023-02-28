@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import IconButton from '@mui/material/IconButton';
 import Badge from '@mui/material/Badge';
+import imgAvatar from '../../public/img/perfil.jpg'
 
 const HeaderIcons = () => {
   return (
@@ -24,7 +25,7 @@ const HeaderIcons = () => {
           aria-haspopup='true'
           color='secondary'
         >
-          <Avatar src='img/perfil.jpg' />
+          <Avatar src={imgAvatar} />
         </IconButton>
     </>
     </div>
